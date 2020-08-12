@@ -2,8 +2,7 @@
 
 This is the repository of all deliverables from SANDIE project ([NSF Award #1659403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1659403)) alongside the [Named Data Networking (NDN)](https://named-data.net/) software stack for CentOS 7.5.
 
-## Guidelines to manually build and 
-install the NDN software stack on Centos 7.5
+## Guidelines to manually build and install the NDN software stack on Centos 7.5
 
 We consider the NDN software stack to be composed of: **boost**, **ndn-cxx**, **NFD**, **ndn-tools**. Bellow are a few guidelines for anyone how wants to manually install or creating RPMs on CentOS 7.x.
 
