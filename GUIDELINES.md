@@ -1,4 +1,6 @@
-We consider the NDN software stack to be composed of: 
+## Building the NDN Software Stack
+
+We consider the NDN Software Stack to be composed of: 
 * [ndn-cxx](https://github.com/named-data/ndn-cxx)
 * [NFD](https://github.com/named-data/NFD)
 * [ndn-tools](https://github.com/named-data/ndn-tools.git)
