@@ -1,5 +1,5 @@
 Name:       nfd
-Version:    0.6.6
+Version:    0.7.0
 Release:    24%{?dist}
 Summary:    A Named Data Networking (NDN) forwarder
 License:    GPLv3+
@@ -36,9 +36,12 @@ CXXFLAGS="%{optflags} -std=c++14" \
 %{_datarootdir}/ndn/*
 %config(noreplace) %{_sysconfdir}/ndn/nfd.conf.sample
 %config(noreplace) %{_sysconfdir}/ndn/autoconfig.conf.sample
-%{_mandir}
+#%{_mandir}
 
 %changelog
+* Fri Sep 11 2020 Catalin Iordache <catalin.iordache@cern.ch> - 0.7.0
+- Changelog: https://github.com/named-data/NFD/releases/tag/NFD-0.7.0
+
 * Tue Apr 30 2019 Catalin Iordache <catalin.iordache@cern.ch> - 0.6.6
 - Changelog: https://github.com/named-data/NFD/releases/tag/NFD-0.6.6
 
