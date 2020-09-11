@@ -1,5 +1,5 @@
 Name:       ndn-tools
-Version:    0.6.4
+Version:    0.7
 Release:    10%{?dist}
 Summary:    NDN Essential Tools
 License:    GPLv3+
@@ -40,9 +40,12 @@ chmod a+x waf
 %files
 %{_bindir}/*
 %{_datarootdir}/*
-%{_mandir}
+#%{_mandir}
 
 %changelog
+* Fri Sep 11 2020 Catalin Iordache <catalin.iordache@cern.ch> - 0.7
+- Changelog: https://github.com/named-data/ndn-tools/releases/tag/ndn-tools-0.7
+
 * Tue Apr 30 2019 Catalin Iordache <catalin.iordache@cern.ch> - 0.6.4
 - Changelog: https://github.com/named-data/ndn-tools/releases/tag/ndn-tools-0.6.4
 
