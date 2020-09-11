@@ -1,5 +1,5 @@
 Name:       libndn-cxx
-Version:    0.6.6
+Version:    0.7.0
 Release:    24%{?dist}
 Summary:    C++ library implementing Named Data Networking primitives
 License:    LGPLv3+ and (BSD or LGPLv3+) and (GPLv3+ or LGPLv3+)
@@ -56,9 +56,12 @@ export LD_LIBRARY_PATH=$PWD/build
 %{_includedir}/ndn-cxx/
 %{_libdir}/libndn-cxx.so
 %{_libdir}/pkgconfig/libndn-cxx.pc
-%{_mandir}
+#%{_mandir}
 
 %changelog
+* Fri Sep 11 2020 Catalin Iordache <catalin.iordache@cern.ch> - 0.7.0
+- Changelog: https://github.com/named-data/ndn-cxx/releases/tag/ndn-cxx-0.7.0
+
 * Tue Apr 30 2019 Catalin Iordache <catalin.iordache@cern.ch> - 0.6.6
 - Changelog: https://github.com/named-data/ndn-cxx/releases/tag/ndn-cxx-0.6.6
 
